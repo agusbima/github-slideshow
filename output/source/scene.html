@@ -1,0 +1,192 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+html,body{margin:0;background:#000}svg{display:block}
+text{font-family:"DejaVu Sans",Arial,sans-serif}
+</style></head><body>
+<svg id="s" width="720" height="1280" viewBox="0 0 720 1280">
+<defs>
+ <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe3b8"/><stop offset="1" stop-color="#ffc98f"/></linearGradient>
+ <linearGradient id="win" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fd3ff"/><stop offset="1" stop-color="#d8f1ff"/></linearGradient>
+ <radialGradient id="blushG"><stop offset="0" stop-color="#ff7f9a" stop-opacity=".55"/><stop offset="1" stop-color="#ff7f9a" stop-opacity="0"/></radialGradient>
+</defs>
+<!-- background -->
+<rect width="720" height="1280" fill="url(#wall)"/>
+<g id="bg">
+ <rect x="70" y="250" width="260" height="300" rx="16" fill="#fff"/><rect x="85" y="265" width="230" height="270" rx="10" fill="url(#win)"/>
+ <circle id="sun" cx="250" cy="330" r="34" fill="#fff6a8"/>
+ <g id="cloud" fill="#fff"><ellipse cx="0" cy="0" rx="40" ry="16"/><ellipse cx="22" cy="-10" rx="24" ry="16"/></g>
+ <line x1="200" y1="265" x2="200" y2="535" stroke="#fff" stroke-width="8"/><line x1="85" y1="400" x2="315" y2="400" stroke="#fff" stroke-width="8"/>
+ <rect x="430" y="300" width="200" height="22" rx="6" fill="#b5754a"/>
+ <rect x="450" y="250" width="34" height="50" rx="6" fill="#ff8c69"/><rect x="495" y="262" width="30" height="38" rx="6" fill="#6cc4a1"/>
+ <path d="M560 300 q-10-60 20-70 q30 10 20 70z" fill="#4caf72"/><rect x="565" y="282" width="30" height="20" fill="#c97b4a"/>
+ <rect x="430" y="380" width="200" height="140" rx="10" fill="#fff4e0" stroke="#e0a868" stroke-width="6"/>
+ <text x="530" y="430" text-anchor="middle" font-size="26" font-weight="700" fill="#c0392b">MENU</text>
+ <text x="530" y="465" text-anchor="middle" font-size="20" fill="#7a4a2a">Bakso 15K</text>
+ <text x="530" y="495" text-anchor="middle" font-size="20" fill="#7a4a2a">Es Teh 5K</text>
+ <rect x="0" y="1010" width="720" height="270" fill="#a8643a"/><rect x="0" y="1000" width="720" height="26" fill="#c47f4e"/>
+</g>
+
+<!-- GIRL -->
+<g id="girl" transform="translate(205,700)">
+ <g id="gBody">
+  <path d="M-130 330 q0-170 130-185 q130 15 130 185z" fill="#ff8fb3"/>
+  <path d="M-40 150 q40 40 80 0" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
+  <rect x="-22" y="105" width="44" height="50" rx="12" fill="#ffd8c2"/>
+ </g>
+ <g id="gHead">
+  <path d="M-125 -40 q-10 170 20 230 l60 -10 l-10 -200z M125 -40 q10 170 -20 230 l-60 -10 l10 -200z" fill="#5a3326"/>
+  <ellipse cx="0" cy="0" rx="112" ry="120" fill="#ffe0cc"/>
+  <ellipse cx="-112" cy="10" rx="16" ry="22" fill="#ffd2bb"/><ellipse cx="112" cy="10" rx="16" ry="22" fill="#ffd2bb"/>
+  <path d="M-120 -10 q-5-130 120-130 q125 0 120 130 q-40-70-110-60 q-20 40-70 50 q-40 0-60 10z" fill="#5a3326"/>
+  <g transform="translate(70,-90)"><circle r="16" fill="#ff5c8a"/><circle cx="-20" cy="-6" r="12" fill="#ff5c8a"/><circle cx="20" cy="-6" r="12" fill="#ff5c8a"/><circle r="7" fill="#ffd166"/></g>
+  <ellipse cx="-62" cy="45" rx="26" ry="16" fill="url(#blushG)"/><ellipse cx="62" cy="45" rx="26" ry="16" fill="url(#blushG)"/>
+  <g id="gBrows" stroke="#5a3326" stroke-width="7" stroke-linecap="round" fill="none"><path id="gBL" d="M-62 -38 q20 -10 38 0"/><path id="gBR" d="M24 -38 q18 -10 38 0"/></g>
+  <g id="gEyes"><g id="gEL" transform="translate(-42,8)"><ellipse rx="17" ry="22" fill="#2b1a14"/><circle cx="6" cy="-8" r="6" fill="#fff"/><circle cx="-5" cy="7" r="3" fill="#fff"/></g>
+  <g id="gER" transform="translate(42,8)"><ellipse rx="17" ry="22" fill="#2b1a14"/><circle cx="6" cy="-8" r="6" fill="#fff"/><circle cx="-5" cy="7" r="3" fill="#fff"/></g></g>
+  <g id="gEyesClosed" stroke="#2b1a14" stroke-width="6" fill="none" stroke-linecap="round" opacity="0"><path d="M-58 10 q16 12 32 0"/><path d="M26 10 q16 12 32 0"/></g>
+  <g id="gEyesHappy" stroke="#2b1a14" stroke-width="6" fill="none" stroke-linecap="round" opacity="0"><path d="M-58 14 q16 -18 32 0"/><path d="M26 14 q16 -18 32 0"/></g>
+  <g transform="translate(0,68)"><ellipse id="gMouth" rx="14" ry="3" fill="#b8323f"/><path id="gSmile" d="M-16 -2 q16 14 32 0" stroke="#b8323f" stroke-width="5" fill="none" stroke-linecap="round"/></g>
+ </g>
+</g>
+
+<!-- BOY -->
+<g id="boy" transform="translate(515,700)">
+ <g id="bBody">
+  <path d="M-135 330 q0-170 135-185 q135 15 135 185z" fill="#4a7bd1"/>
+  <path d="M-60 150 q60 50 120 0" fill="#3a65b3"/>
+  <line x1="-20" y1="170" x2="-24" y2="230" stroke="#fff" stroke-width="5"/><line x1="20" y1="170" x2="24" y2="230" stroke="#fff" stroke-width="5"/>
+  <rect x="-22" y="105" width="44" height="50" rx="12" fill="#f2c9a8"/>
+ </g>
+ <g id="bPhone" transform="translate(-40,260)">
+  <ellipse cx="30" cy="40" rx="34" ry="24" fill="#f2c9a8"/>
+  <g transform="rotate(-12)"><rect x="-10" y="-70" width="62" height="110" rx="10" fill="#222"/><rect x="-4" y="-62" width="50" height="92" rx="6" fill="#7fe0ff"/>
+  <text x="21" y="-10" text-anchor="middle" font-size="30">🍜</text></g>
+  <ellipse cx="6" cy="40" rx="28" ry="20" fill="#f2c9a8"/>
+ </g>
+ <g id="bHead">
+  <ellipse cx="0" cy="0" rx="108" ry="116" fill="#f7d4b8"/>
+  <ellipse cx="-108" cy="10" rx="16" ry="22" fill="#f2c9a8"/><ellipse cx="108" cy="10" rx="16" ry="22" fill="#f2c9a8"/>
+  <path d="M-115 -5 q-15 -120 70 -125 q30 -25 70 -5 q70 10 60 130 q-20 -50 -50 -70 q-30 20 -80 15 q-40 10 -70 55z" fill="#2a1e1a"/>
+  <g id="bBrows" stroke="#2a1e1a" stroke-width="9" stroke-linecap="round" fill="none"><path id="bBL" d="M-64 -36 l38 0"/><path id="bBR" d="M26 -36 l38 0"/></g>
+  <g id="bEyes"><g id="bEL" transform="translate(-44,6)"><ellipse rx="14" ry="18" fill="#1e1410"/><circle cx="5" cy="-6" r="5" fill="#fff"/></g>
+  <g id="bER" transform="translate(44,6)"><ellipse rx="14" ry="18" fill="#1e1410"/><circle cx="5" cy="-6" r="5" fill="#fff"/></g></g>
+  <g id="bEyesClosed" stroke="#1e1410" stroke-width="6" fill="none" stroke-linecap="round" opacity="0"><path d="M-58 8 q14 10 28 0"/><path d="M30 8 q14 10 28 0"/></g>
+  <g id="bEyesHappy" stroke="#1e1410" stroke-width="6" fill="none" stroke-linecap="round" opacity="0"><path d="M-58 12 q14 -16 28 0"/><path d="M30 12 q14 -16 28 0"/></g>
+  <g transform="translate(0,66)"><ellipse id="bMouth" rx="16" ry="3" fill="#8f2a33"/><path id="bSmile" d="M-18 -2 q18 14 36 0" stroke="#8f2a33" stroke-width="5" fill="none" stroke-linecap="round"/></g>
+  <path id="sweat" d="M100 -70 q14 22 0 34 q-14 -12 0 -34z" fill="#7fd0ff" stroke="#3a9ad9" stroke-width="3" opacity="0"/>
+ </g>
+</g>
+
+<!-- effects -->
+<g id="fx">
+ <g id="bowl" opacity="0" transform="translate(360,880)">
+  <path d="M-80 0 q80 110 160 0z" fill="#fff" stroke="#e05a47" stroke-width="6"/><ellipse rx="80" ry="16" fill="#d9883f"/>
+  <circle cx="-30" cy="-6" r="16" fill="#8a5a3a"/><circle cx="5" cy="-10" r="16" fill="#8a5a3a"/><circle cx="35" cy="-4" r="14" fill="#8a5a3a"/>
+  <g id="steam" stroke="#fff" stroke-width="5" fill="none" opacity=".8"><path d="M-30 -40 q-12 -20 0 -40 q12 -20 0 -40"/><path d="M10 -40 q-12 -20 0 -40 q12 -20 0 -40"/><path d="M45 -40 q-12 -20 0 -40 q12 -20 0 -40"/></g>
+ </g>
+ <text id="exclaim" x="80" y="520" font-size="90" font-weight="900" fill="#ff3b5c" opacity="0">!</text>
+ <text id="hearts" x="560" y="560" font-size="60" opacity="0">💖</text>
+ <text id="question" x="610" y="520" font-size="80" font-weight="900" fill="#3a65b3" opacity="0">?</text>
+ <text id="dots" x="560" y="520" font-size="70" font-weight="900" fill="#333" opacity="0">...</text>
+</g>
+
+<!-- subtitle -->
+<g id="sub" opacity="0">
+ <rect id="subBox" x="40" y="1080" width="640" height="150" rx="26" fill="#fff" stroke="#333" stroke-width="5"/>
+ <rect id="tag" x="64" y="1058" width="120" height="44" rx="22" fill="#ff5c8a"/>
+ <text id="tagT" x="124" y="1088" text-anchor="middle" font-size="24" font-weight="700" fill="#fff">CEWEK</text>
+ <text id="subT1" x="360" y="1150" text-anchor="middle" font-size="34" font-weight="700" fill="#222"></text>
+ <text id="subT2" x="360" y="1196" text-anchor="middle" font-size="34" font-weight="700" fill="#222"></text>
+</g>
+
+<!-- title -->
+<g id="title">
+ <rect x="60" y="70" width="600" height="130" rx="30" fill="#ff5c8a" stroke="#fff" stroke-width="6"/>
+ <text x="360" y="128" text-anchor="middle" font-size="40" font-weight="900" fill="#fff">Siapa yang Bayar? 🍜</text>
+ <text x="360" y="174" text-anchor="middle" font-size="24" fill="#fff">Episode 1</text>
+</g>
+<text id="end" x="360" y="160" text-anchor="middle" font-size="72" font-weight="900" fill="#ff5c8a" stroke="#fff" stroke-width="4" opacity="0">WKWKWK 😂</text>
+</svg>
+<script>
+const $=id=>document.getElementById(id);
+let TL=null;
+window.setTimeline=t=>{TL=t};
+function wrap(s,max){const w=s.split(' ');let a='',b='';for(const x of w){if((a+' '+x).trim().length<=max&&!b)a=(a+' '+x).trim();else b=(b+' '+x).trim();}return [a,b];}
+const ease=x=>x<0?0:x>1?1:x*x*(3-2*x);
+window.render=function(t){
+ const fps=TL.fps;
+ let cur=null,idx=-1;
+ TL.clips.forEach((c,i)=>{if(t>=c.start&&t<c.start+c.dur+0.35){cur=c;idx=i;}});
+ // last started line index
+ let last=-1;TL.clips.forEach((c,i)=>{if(t>=c.start)last=i;});
+ // mouths
+ for(const [who,m,sm] of [['F','gMouth','gSmile'],['M','bMouth','bSmile']]){
+   let a=0;
+   if(cur&&cur.who===who&&t<cur.start+cur.dur){const f=Math.floor((t-cur.start)*fps);const e=cur.env[f]||0;const e2=cur.env[f+1]||e;a=(e+e2)/2;}
+   const open=a>0.08;
+   $(m).setAttribute('ry',open?4+a*20:3);$(m).setAttribute('rx',open?14+a*5:14);
+   $(m).style.opacity=open?1:0;$(sm).style.opacity=open?0:1;
+ }
+ // talking bob
+ const gTalk=cur&&cur.who==='F', bTalk=cur&&cur.who==='M';
+ const breathe=Math.sin(t*2.2)*3;
+ $('gHead').setAttribute('transform',`translate(0,${breathe+(gTalk?Math.sin(t*9)*4:0)}) rotate(${gTalk?Math.sin(t*4)*3:-2+Math.sin(t*1.3)})`);
+ $('bHead').setAttribute('transform',`translate(0,${-breathe+(bTalk?Math.sin(t*8)*4:0)}) rotate(${bTalk?Math.sin(t*3.5)*3:2+Math.sin(t*1.1)})`);
+ $('gBody').setAttribute('transform',`translate(0,${breathe*0.4})`);$('bBody').setAttribute('transform',`translate(0,${-breathe*0.4})`);
+ // boy looks at phone in lines 0-1
+ const phoneOn=last<2;
+ $('bPhone').style.opacity=phoneOn?1:Math.max(0,1-(t-TL.clips[2].start)*3);
+ const lookDown=phoneOn&&!bTalk;
+ // girl looks at boy, boy looks at girl (or phone)
+ $('gEL').setAttribute('transform',`translate(${-42+5},8)`);$('gER').setAttribute('transform',`translate(${42+5},8)`);
+ const bx=lookDown?-6:-5,by=lookDown?10:0;
+ $('bEL').setAttribute('transform',`translate(${-44+bx},${6+by})`);$('bER').setAttribute('transform',`translate(${44+bx},${6+by})`);
+ // blinks
+ const blink=(t,off)=>((t+off)%3.3)<0.12;
+ let gState='open',bState='open';
+ if(blink(t,0))gState='closed';if(blink(t,1.4))bState='closed';
+ // expressions per line
+ const L=last, since=L>=0?t-TL.clips[L].start:0;
+ let gBrow=0,bBrow=0;
+ if(L===2){gBrow=-8;}
+ if(L===3){bBrow=8;}
+ if(L===5){bState='happy';}
+ if(L===6){gState='happy';}
+ if(L===7){bBrow=-6;}
+ const endT=TL.clips[7].start+TL.clips[7].dur;
+ if(t>endT+0.2){gState='happy';}
+ const gEyesShown=gState==='open'; $('gEyes').style.opacity=gEyesShown?1:0;
+ $('gEyesClosed').style.opacity=gState==='closed'?1:0;$('gEyesHappy').style.opacity=gState==='happy'?1:0;
+ $('bEyes').style.opacity=bState==='open'?1:0;$('bEyesClosed').style.opacity=bState==='closed'?1:0;$('bEyesHappy').style.opacity=bState==='happy'?1:0;
+ $('gBrows').setAttribute('transform',`translate(0,${gBrow})`);
+ $('bBL').setAttribute('d',bBrow>0?`M-64 -42 l38 10`:bBrow<0?`M-64 -30 l38 -10`:`M-64 -36 l38 0`);
+ $('bBR').setAttribute('d',bBrow>0?`M26 -32 l38 -10`:bBrow<0?`M26 -40 l38 10`:`M26 -36 l38 0`);
+ // effects
+ const pop=(id,on,s)=>{const k=on?ease(s*4):0;$(id).style.opacity=k;};
+ pop('question',L===0,since);
+ pop('exclaim',L===2,since);
+ pop('hearts',L===5,since);$('hearts').setAttribute('y',560-(L===5?since*20:0));
+ pop('dots',L===7,since);
+ $('sweat').style.opacity=L===7||t>endT?1:0;$('sweat').setAttribute('transform',`translate(0,${L===7?(since*12)%30:0})`);
+ const bowlOn=L>=4&&L<=6; $('bowl').style.opacity=bowlOn?ease((t-TL.clips[4].start)*3):0;
+ $('bowl').setAttribute('transform',`translate(360,${985+Math.sin(t*3)*4})`);
+ $('steam').setAttribute('transform',`translate(0,${-(t*20)%20})`);
+ // girl jumps happily on line 4
+ if(L===4||L===6){$('girl').setAttribute('transform',`translate(205,${700-Math.abs(Math.sin(since*6))*12})`);}else $('girl').setAttribute('transform','translate(205,700)');
+ // boy shake on 3
+ $('boy').setAttribute('transform',`translate(${515+(L===3&&since<1.2?Math.sin(since*40)*5:0)},700)`);
+ // background
+ $('cloud').setAttribute('transform',`translate(${100+(t*8)%260},310)`);
+ // title / end
+ $('title').style.opacity=t<TL.clips[0].start+2.2?1:Math.max(0,1-(t-TL.clips[0].start-2.2)*2);
+ $('end').style.opacity=t>endT+0.2?ease((t-endT-0.2)*3):0;
+ $('end').setAttribute('transform',`translate(0,${t>endT?Math.sin(t*8)*4:0})`);
+ // subtitles
+ if(cur){
+   $('sub').style.opacity=1;const [a,b]=wrap(cur.text,30);
+   $('subT1').textContent=a;$('subT2').textContent=b;
+   $('subT1').setAttribute('y',b?1150:1170);
+   const f=cur.who==='F';$('tag').setAttribute('fill',f?'#ff5c8a':'#4a7bd1');$('tagT').textContent=f?'CEWEK':'COWOK';
+   $('tag').setAttribute('x',f?64:536);$('tagT').setAttribute('x',f?124:596);
+ } else $('sub').style.opacity=0;
+};
+</script></body></html>
